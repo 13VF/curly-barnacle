@@ -1,0 +1,31 @@
+{
+  "name": "curly-barnacle",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "typecheck": "nuxi typecheck",
+    "lint": "eslint .",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "verify": "npm run format:check && npm run lint && npm run typecheck && npm run generate",
+    "postinstall": "nuxi prepare"
+  },
+  "dependencies": {
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.42"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.17.0",
+    "eslint": "^10.10.0",
+    "prettier": "^3.9.6",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.11"
+  }
+}
