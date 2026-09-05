@@ -29,6 +29,8 @@ This repository contains a bilingual personal site and serves as a compact exerc
 
 ## Verification
 
+Use Node.js `>=24.15.0`; `.nvmrc` pins `24.20.0`.
+
 Run the narrowest relevant check first. Before considering implementation complete, run:
 
 ```bash

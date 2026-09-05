@@ -8,6 +8,7 @@ The site is structurally complete, but all personal information is intentionally
 
 ## Stack
 
+- Node.js `24.20.0` (minimum `24.15.0`)
 - Nuxt 4
 - Vue 3
 - Static site generation

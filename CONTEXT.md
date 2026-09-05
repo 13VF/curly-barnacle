@@ -18,6 +18,7 @@ Create a minimal bilingual personal site while practicing agent-driven developme
 
 ### Technology
 
+- Node.js `>=24.15.0` (`24.20.0` pinned)
 - Nuxt 4
 - Vue 3
 - Static generation
