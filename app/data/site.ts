@@ -38,7 +38,7 @@ export const siteContent: Record<Locale, SiteContent> = {
     path: '/',
     meta: {
       title: 'Рами Оста — Тимлид',
-      description: 'Вибекоднутый сайт-визитка.',
+      description: 'Рами Оста — тимлид. Личный сайт.',
     },
     alternate: {
       locale: 'en',
@@ -54,12 +54,12 @@ export const siteContent: Record<Locale, SiteContent> = {
       name: 'Ozon Tech',
       url: 'https://ozon.tech/',
     },
-    interests: ['Videogames + Streaming', 'GYM + Bycicle', 'Ножи + Походы', 'Грибы и растения'],
+    interests: ['Видеоигры + стриминг', 'Тренажерка + велосипед', 'Ножи + походы', 'Грибы + растения'],
     contacts: [
       {
         label: 'email',
-        value: 'TODO',
-        href: 'mailto:TODO',
+        value: 'rami.osta@yandex.ru',
+        href: 'mailto:rami.osta@yandex.ru',
         external: false,
       },
       {
@@ -70,8 +70,8 @@ export const siteContent: Record<Locale, SiteContent> = {
       },
       {
         label: 'linkedin',
-        value: 'TODO',
-        href: 'TODO',
+        value: 'Rami Osta',
+        href: 'https://www.linkedin.com/in/rami-osta-316a93128/',
         external: true,
       },
     ],
@@ -81,7 +81,7 @@ export const siteContent: Record<Locale, SiteContent> = {
     path: '/en/',
     meta: {
       title: 'Rami Osta — Team Lead',
-      description: 'A vibe-coded personal card site.',
+      description: 'Rami Osta — team lead. Personal site.',
     },
     alternate: {
       locale: 'ru',
@@ -101,13 +101,13 @@ export const siteContent: Record<Locale, SiteContent> = {
       'Video games + streaming',
       'Gym + cycling',
       'Knives + hiking',
-      'Mushrooms and plants',
+      'Mushrooms + plants',
     ],
     contacts: [
       {
         label: 'email',
-        value: 'TODO',
-        href: 'mailto:TODO',
+        value: 'rami.osta@yandex.ru',
+        href: 'mailto:rami.osta@yandex.ru',
         external: false,
       },
       {
@@ -118,8 +118,8 @@ export const siteContent: Record<Locale, SiteContent> = {
       },
       {
         label: 'linkedin',
-        value: 'TODO',
-        href: 'TODO',
+        value: 'Rami Osta',
+        href: 'https://www.linkedin.com/in/rami-osta-316a93128/',
         external: true,
       },
     ],
