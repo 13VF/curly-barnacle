@@ -6,8 +6,11 @@
     "node": ">=24.15.0"
   },
   "scripts": {
+    "tokens:build": "node scripts/build-tokens.mjs",
+    "predev": "npm run tokens:build",
     "dev": "nuxi dev",
     "build": "nuxi build",
+    "pregenerate": "npm run tokens:build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
     "typecheck": "nuxi typecheck",

@@ -54,7 +54,12 @@ export const siteContent: Record<Locale, SiteContent> = {
       name: 'Ozon Tech',
       url: 'https://ozon.tech/',
     },
-    interests: ['Видеоигры + стриминг', 'Тренажерка + велосипед', 'Ножи + походы', 'Грибы + растения'],
+    interests: [
+      'Видеоигры + стриминг',
+      'Тренажерка + велосипед',
+      'Ножи + походы',
+      'Грибы + растения',
+    ],
     contacts: [
       {
         label: 'email',
